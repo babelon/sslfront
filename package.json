@@ -17,5 +17,5 @@
   "engines": {
     "node": "*"
   },
-  private: true
+  "private": true
 }
