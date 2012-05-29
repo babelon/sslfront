@@ -10,7 +10,7 @@ server.configure(function() {
 });
 
 server.get('/', function(req, res) {
-  res.redirect('http://lietome.babelon.co');
+  res.send('<script type="text/javascript" charset="utf-8">window.top.location.href = "http://lietome.babelon.co";</script>');
 });
 
 port = process.env.PORT || 8080;
