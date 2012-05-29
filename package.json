@@ -10,12 +10,12 @@
   },
   "main": "server.js",
   "dependencies": {
-    "express": "~2.5.9"
+    "express": "2.5.x"
   },
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
-    "node": "*"
+    "node": "0.6.x"
   },
   "private": true
 }
