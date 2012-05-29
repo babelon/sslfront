@@ -1,0 +1,21 @@
+{
+  "author": "Zahan Malkani <zahanm@babelon.co> (http://zahanm.com)",
+  "name": "sslfront",
+  "description": "SSL forwarding to app",
+  "version": "0.0.1",
+  "homepage": "http://lietome.babelon.co",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/babelon/sslfront.git"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "express": "~2.5.9"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  private: true
+}
